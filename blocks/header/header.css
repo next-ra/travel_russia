@@ -1,0 +1,11 @@
+@import './__logo/header__logo.css';
+@import './__lang-box/header__lang-box.css';
+@import './__lang/header__lang.css';
+@import './__lang/_en/header__lang_en.css';
+
+.header {   
+    display: flex;
+    justify-content: space-between;
+    font-family: Inter, Arial, Helvetica, sans-serif;
+}           
+

@@ -1,0 +1,13 @@
+.page__comments {
+    width: 82%;
+    /* max-width: 1184px; */
+    margin-bottom: 82px;
+    
+}
+
+@media screen and (max-width: 1024px) {
+    .page__comments {
+        /* max-width: 928px; */
+        width: 90%;
+    }
+}

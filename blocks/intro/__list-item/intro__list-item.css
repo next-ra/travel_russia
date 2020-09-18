@@ -1,0 +1,11 @@
+.intro__list-item {
+    font-weight: bold;
+    font-size: .8rem;
+    line-height: 1.6em;
+}
+
+@media screen and (max-width: 555px) {
+    .intro__list-item {
+        font-size: .9rem;
+    }
+}

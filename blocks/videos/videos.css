@@ -1,0 +1,31 @@
+@import '../content-title/content-title.css';
+@import '../content-subtitle/content-subtitle.css';
+@import './__container/videos__container.css';
+@import './__duration/videos__duration.css';
+@import './__icon/_type/videos__icon_type_play.css';
+@import './__item/videos__item.css';
+@import './__subtitle/videos__subtitle.css';
+@import './__title/videos__title.css';
+@import './__video/videos__video.css';
+@import './__wrapper/videos__wrapper.css';
+
+.videos {
+    font-family: Inter, Arial, Helvetica, sans-serif;
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

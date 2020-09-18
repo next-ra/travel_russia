@@ -1,0 +1,26 @@
+.place__url {
+    padding-top: 4px;
+    font-weight: normal;
+    font-size: 1.1rem;
+    line-height: 1.7em;
+    text-decoration-line: underline;
+    position: relative;
+    color: #FFFFFF;
+   
+}
+
+.place__url::after{
+    content: "";
+    background: white;
+    mix-blend-mode: exclusion;
+    width: 0;
+    height:calc(100% + 5px);
+    position: absolute;
+    bottom: -4px;
+    left: -10px;
+    transition: all .3s ease-in-out;
+}
+
+.place__url:hover::after{
+    width: calc(100% + 20px);
+}

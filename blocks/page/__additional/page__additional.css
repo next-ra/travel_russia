@@ -1,0 +1,12 @@
+.page__additional {
+    width: 82%;
+    /* max-width: 1184px; */
+    margin-bottom: 112px;
+}
+
+@media screen and (max-width: 1024px) {
+    .page__additional {
+        max-width: 928px;
+        width: 94%;
+    }
+}

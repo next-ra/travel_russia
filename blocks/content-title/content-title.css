@@ -1,0 +1,34 @@
+@import './_comments/content-title_comments.css';
+
+.content-title {  
+    font-family: Inter, Arial, Helvetica, sans-serif;     
+    font-style: normal;
+    font-weight: 900;
+    font-size: 4.5rem;
+    line-height: 1.1;
+    text-align: center;
+    max-width: 800px;    
+    margin: 0 auto 34px;
+}
+
+@media screen and (max-width: 1024px) {
+    .content-title {
+        font-size: calc( (100vw - 48rem)/(64 - 48) * (4.5 - 2.6) + 2.6rem); 
+        max-width: 74%;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .content-title{
+        font-size: calc( (100vw - 23.5rem)/(48 - 23.5) * (2.6 - 2) + 2rem);      
+        max-width: 400px;
+    }
+}
+
+@media screen and (max-width: 375px) {
+    .content-title{
+        font-size: 2rem;
+        max-width: 400px;
+        margin-bottom: 26px;
+    }
+}

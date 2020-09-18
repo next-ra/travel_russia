@@ -1,0 +1,6 @@
+@import './__place/places__place.css';
+@import '../place/place.css';
+.places {
+    font-family: Inter, Arial, Helvetica, sans-serif;
+}
+

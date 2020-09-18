@@ -1,0 +1,18 @@
+@import './vendor/fonts/fonts.css';
+@import './blocks/header/header.css';
+@import './blocks/lead/lead.css';
+@import './blocks/intro/intro.css';
+@import './blocks/photo-grid/photo-grid.css';
+@import './blocks/places/places.css';
+@import './blocks/videos/videos.css';
+@import './blocks/additional/additional.css';
+@import './blocks/comments/comments.css';
+@import './blocks/cover/cover.css';
+@import './blocks/emblem/emblem.css';
+@import './blocks/barentsburg/barentsburg.css';
+@import './blocks/footer/footer.css';
+@import './blocks/page/page.css';
+
+body {
+    background-color:#2A2C2F;   
+}

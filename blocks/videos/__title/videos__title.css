@@ -1,0 +1,21 @@
+.videos__title {
+    margin:0;  
+    max-width: 322px;
+    font-weight: 900;
+    font-size: 2.25rem;
+    line-height: 1;
+}
+
+@media screen and (max-width: 1024px) {
+    .videos__title{
+        font-size: calc( (100vw - 44rem)/(64 - 44) * (2.25 - 1.5) + 1.5rem); 
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .videos__title{
+        font-size: 1.5rem;
+       
+    }
+}
+

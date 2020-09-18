@@ -1,0 +1,38 @@
+@import './__link/footer__link.css';
+
+.footer {
+    position: relative;
+    padding-bottom: 30px;
+    font-family: Inter, Arial, Helvetica, sans-serif;
+    
+}
+
+.footer::after {
+    content:'\00a9 2019. Денис Лучников';
+    position: absolute;
+    right: 1%;
+    top: 20%;    
+    font-size: .9rem;     
+}
+
+    
+@media screen and (max-width: 900px) {
+    .footer::after {
+        top: 18%;
+    }
+}
+
+@media screen and (max-width: 700px) {
+    .footer {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: flex-start; 
+        padding-bottom: 70px;        
+    }
+    .footer::after {
+        bottom: 24px;
+        top: auto;
+        right: auto;
+    }
+}

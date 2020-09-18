@@ -1,0 +1,11 @@
+@import './__bg/cover__bg.css';
+@import './__link/cover__link.css';
+@import './__subtitle/cover__subtitle.css';
+@import './__title/cover__title.css';
+.cover { 
+    font-family: Inter, Arial, Helvetica, sans-serif;             
+    display: flex;
+     
+    position: relative;       
+}
+

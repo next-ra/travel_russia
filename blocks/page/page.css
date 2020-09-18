@@ -1,0 +1,60 @@
+@import './__additional/page__additional.css';
+@import './__barentsburg/page__barentsburg.css';
+@import './__comments/page__comments.css';
+@import './__cover/page__cover.css';
+@import './__emblem/page__emblem.css';
+@import './__footer/page__footer.css';
+@import './__header/page__header.css';
+@import './__intro/page__intro.css';
+@import './__lead/page__lead.css';
+@import './__photo-grid/page__photo-grid.css';
+@import './__places/page__places.css';
+@import './__videos/page__videos.css';
+
+.page   {
+    padding-top: 30px;
+    margin:0 auto;
+    width: 100%;
+    max-width: 1440px;
+    min-width: 320px;
+
+    font-family: Inter, Arial, Helvetica, sans-serif;
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-font-smoothing: antialiased;
+    font-style: normal;
+    font-weight: normal;
+    color: #FFFFFF;
+
+    background-color: #2A2C2F;
+
+    display: flex;
+    flex-direction: column; 
+    align-items: center;           
+}
+
+
+
+@media screen and (max-width: 555px) {
+    .page {
+        padding-top: 14px;        
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

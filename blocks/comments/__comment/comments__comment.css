@@ -1,0 +1,25 @@
+.comments__comment {
+    width: calc(100% / 3 - 38px);
+    max-width: 382px;
+    display: flex;
+    flex-direction: column;
+    
+}
+
+@media screen and (max-width: 768px) {
+    .comments__comment {              
+       width:70%;
+       align-items: center;
+       margin-bottom: 55px;
+    }
+}
+/* 320 изначально */
+
+@media screen and (max-width: 555px) {
+    .comments__comment {              
+       width: 95%;
+       align-items: center;
+       margin-bottom: 55px;
+    }
+}
+

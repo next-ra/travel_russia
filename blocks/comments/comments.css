@@ -1,0 +1,10 @@
+@import './__author/comments__author.css';
+@import './__comment/comments__comment.css';
+@import './__container/comments__container.css';
+@import './__photo/comments__photo.css';
+@import './__quote/comments__quote.css';
+@import '../content-title/_comments/content-title_comments.css';
+
+.comments {
+    font-family: Inter, Arial, Helvetica, sans-serif;
+}
